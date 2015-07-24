@@ -234,6 +234,8 @@ public class PixelDungeon extends Game {
 	
 	@SuppressLint("NewApi")
 	public static void updateImmersiveMode() {
+		//FIXME
+		/*
 		if (android.os.Build.VERSION.SDK_INT >= 19) {
 			try {
 				// Sometime NullPointerException happens here
@@ -251,6 +253,7 @@ public class PixelDungeon extends Game {
 				reportException( e );
 			}
 		}
+		*/
 	}
 	
 	public static boolean immersed() {
